@@ -1,0 +1,105 @@
+.boxSolution {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #aaa;
+}
+
+.boxSolution h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.box1{
+  width: 30%;
+  height: 200px;
+}
+
+.box2{
+  width: 30%;
+  height: 200px;
+  padding: 4em 0.5em;
+}
+
+.box3{
+  width: 20%;
+  height: 400px;
+}
+
+.box4{
+  width: 20%;
+  height: 400px;
+  padding: 10em 0.5em;
+}
+
+.box5{
+  width: 30%;
+  height: 200px;
+  margin-top: -12.45em;
+  padding: 4em 0.5em;
+}
+
+.box6{
+  width: 30%;
+  height: 300px;
+  margin-top: -12.45em;
+  padding: 7em 0.5em;
+}
+
+.box7{
+  width: 40%;
+  height: 150px;
+  padding: 4em 0.5em;
+}
+
+.box8{
+  width: 30%;
+  height: 400px;
+  margin-top: -9.35em;
+}
+
+.box9{
+  width: 30%;
+  height: 300px;
+  margin-top: -3.1em;
+  padding: 8em 0.5em;
+}
+
+.box10{
+  width: 15%;
+  height: 250px;
+  padding: 6em 0.5em;
+}
+
+.box11{
+  width: 25%;
+  height: 250px;
+}
+
+@media (max-width:760px) {
+  .boxSolution {
+    flex-direction: column;
+  }
+
+  .box1,
+  .box3,
+  .box11,
+  .box8 {
+    display: none;
+  }
+
+  .box2,
+  .box4,
+  .box5,
+  .box6,
+  .box7,
+  .box9,
+  .box10 {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 5em 2em;
+  }
+}

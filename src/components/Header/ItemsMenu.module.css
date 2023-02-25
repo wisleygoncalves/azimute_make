@@ -1,0 +1,105 @@
+.menuCanvas {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+.menuCanvas p {
+  color: #aaa;
+  font-weight: lighter;
+}
+
+.menuCanvas p {
+  margin-bottom: 2em;
+  font-size: 13px;
+}
+
+.menuCanvas i {
+  font-size: 30px;
+}
+
+.menuCanvas img {
+  width: 60%;
+  margin: 1em 0;
+}
+
+.menuCanvas li {
+  width: 25%;
+}
+
+.frontEnd,
+.backEnd,
+.data,
+.fullStack,
+.mobile,
+.digital,
+.devops,
+.ia {
+  padding: 1em;
+}
+
+.frontEnd:hover,
+.backEnd:hover,
+.data:hover,
+.fullStack:hover,
+.mobile:hover,
+.digital:hover,
+.devops:hover,
+.ia:hover {
+  background-color: #111;
+  border: 2px solid #111;
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.15) 0px -2px 10px 0px;
+}
+
+.frontEnd,
+.backEnd,
+.data,
+.fullStack,
+.mobile,
+.digital,
+.devops,
+.ia {
+  border: 2px solid #aaa;
+  border-radius: 5px;
+}
+
+.frontEnd,
+.fullStack,
+.mobile,
+.devops {
+  margin-bottom: 1em;
+}
+
+.frontEnd i {
+  color: #ff8a00;
+}
+
+.backEnd i {
+  color: #009cff;
+}
+
+.fullStack i {
+  color: #8912ee;
+}
+
+.data i {
+  color: #ee1255;
+}
+
+.mobile i {
+  color: #3ef38b;
+}
+
+.digital i {
+  color: #f6e631;
+}
+
+.devops i {
+  color: #d922b0;
+}
+
+.ia i {
+  color: #17e0d4;
+}

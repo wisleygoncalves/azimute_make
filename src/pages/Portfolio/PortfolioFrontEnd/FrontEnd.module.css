@@ -1,0 +1,86 @@
+.boxFrontEnd {
+  height: 80vh;
+}
+
+.makeFrontEnd {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 25vh 10vh 0 120vh;
+}
+
+.makeLineFront {
+  border-bottom: 5px solid #ff8a00;
+  width: 20%;
+  margin: 1em 0;
+  border-radius: 30px;
+}
+
+.makeFrontEnd i {
+  font-size: 40px;
+  color: #ff8a00;
+}
+
+.makeFrontEnd img {
+  margin-top: 1em;
+  width: 50%;
+}
+
+.box2FrontEnd {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 3em 5em;
+}
+
+.imgFrontEnd {
+  width: 33.33%;
+  padding: 0 1em;
+}
+
+.imgFrontEnd img {
+  width: 100%;
+  margin-bottom: 2em;
+  opacity: 1;
+}
+
+.imgFrontEnd img:hover {
+  opacity: .8;
+}
+
+@media (max-width:760px) {
+  .boxFrontEnd {
+    height: 40vh;
+  }
+
+  .makeFrontEnd {
+    padding: 7em 0;
+  }
+
+  .makeFrontEnd i,
+  .makeFrontEnd img {
+    display: none;
+  }
+
+  .makeFrontEnd h2 {
+    font-size: 25px;
+    color: #ff8a00;
+  }
+
+  .makeLineFront {
+    width: 20%;
+    margin: 0 0 .5em 0;
+  }
+
+  .box2FrontEnd {
+    flex-direction: column;
+    margin: 5em 1.5em;
+  }
+
+  .imgFrontEnd {
+    width: 100%;
+  }
+}

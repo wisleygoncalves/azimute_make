@@ -1,0 +1,142 @@
+@keyframes growDown {
+  0% {
+      transform: scaleY(0)
+  }
+  80% {
+      transform: scaleY(1.1)
+  }
+  100% {
+      transform: scaleY(1)
+  }
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8em 1.5em;
+}
+
+.menuMobile {
+  display: none;
+}
+
+.iconeMenu {
+  color: #fabe28;
+  font-size: 20px;
+}
+
+.brand img {
+  width: 50%;
+}
+
+.menuContainer button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.listMneuMobile {
+  list-style: none;
+}
+
+.listMneuMobile a {
+ text-decoration: none;
+ color: #aaa;
+ font-size: 16px;
+ opacity: 1;
+}
+
+.listMneuMobile li {
+  margin-bottom: .7em;
+}
+
+.dropdownMenu button {
+  color: #aaa;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dropdownMenu ul {
+  list-style: none;
+  margin: 1em 0;
+  animation: growDown 300ms ease-in-out forwards;
+}
+
+.dropMake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dropdownMenu li {
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding: 5em 1.3em;
+  margin: 1em 1em;
+  width: 45%;
+  font-size: 2px;
+}
+
+.dropdownMenu li:hover {
+  background-color: #000;
+  border: none;
+}
+
+.dropItems i {
+  font-size: 16px;
+}
+
+.frontEnd i {
+  color: #ff8a00;
+}
+
+.backEnd i {
+  color: #009cff;
+}
+
+.fullStack i {
+  color: #8912ee;
+}
+
+.data i {
+  color: #ee1255;
+}
+
+.mobile i {
+  color: #3ef38b;
+}
+
+.digital i {
+  color: #f6e631;
+}
+
+.devops i {
+  color: #d922b0;
+}
+
+.ia i {
+  color: #17e0d4;
+}
+
+.active {
+  font-weight: bold;
+}
+
+
+@media (max-width:760px) {
+  .menuMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

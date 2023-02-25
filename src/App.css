@@ -1,0 +1,20 @@
+.container {
+  min-height: 70vh;
+}
+
+.whatsapp {
+  position: fixed;
+  top: 85vh;
+  z-index: 9999;
+  left: 200vh;
+}
+
+.whatsapp img {
+  width: 50%;
+}
+
+@media (max-width:760px) {
+  .whatsapp {
+    display: none;
+  }
+}

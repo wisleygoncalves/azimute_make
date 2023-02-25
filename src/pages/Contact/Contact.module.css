@@ -1,0 +1,60 @@
+.boxContact {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000022;
+  
+}
+
+.row1Contact,
+.row2Contact {
+  margin-top: 120px;
+}
+
+.row1Contact {
+  width: 45%;
+  margin-left: 100px;
+}
+
+.row2Contact {
+  width: 55%;
+  margin-right: 120px;
+}
+
+.row1Contact h1 {
+  font-size: 40px;
+  color: #ff8a00;
+  margin-bottom: .7em;
+}
+
+.row1Contact span {
+  color: #ff8a00;
+  font-weight: bold;
+}
+
+.row1Contact p {
+  margin-bottom: .7em;
+  font-size: 18px;
+}
+
+@media (max-width:760px) {
+  .boxContact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .row1Contact,
+  .row2Contact {
+    width: 100%;
+  }
+
+  .row1Contact {
+    margin: 0;
+    padding: 8em 0 0 0;
+  }
+
+  .row2Contact {
+    margin: 0;
+    padding: 2em;
+  }
+}

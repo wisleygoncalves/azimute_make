@@ -1,0 +1,285 @@
+.boxMF1 {
+  height: 100vh;
+}
+
+.rowMF1 {
+  width: 50%;
+  padding: 9em 0 0 5em;
+  text-align: center;
+}
+
+.rowMF1 i,
+.rowMF1 h1 {
+  color: #ff8a00;
+  font-size: 40px;
+}
+
+.rowMF1 img {
+  width: 45%;
+  margin: .7em 0;
+}
+
+.rowMF1 h1 {
+  line-height: .9em;
+  margin-bottom: .7em;
+}
+
+.rowMF1 p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 3em;
+}
+
+.rowMF1 a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  background-color: #ff8a00;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px 0px;
+  opacity: 1;
+  padding: 1em 2em;
+}
+
+.rowMF1 a:hover {
+  opacity: .8;
+}
+
+.lineMF1,
+.lineMF2,
+.lineMF4,
+.lineMF5 {
+  border: 3px solid #ff8a00;
+  border-radius: 30px;
+}
+
+.lineMF1 {
+  width: 20%;
+  margin-bottom: 1.8em;
+}
+
+.lineMF2 {
+  width: 60%;
+  margin: 1.5em 0;
+}
+
+.lineMF4 {
+  width: 90%;
+  margin-top: .6em;
+}
+
+.lineMF5 {
+  width: 10%;
+  margin: 1em 0 3em 0;
+}
+
+.boxMF2 {
+  display: flex;
+  justify-content: center;
+  background-color: #000022;
+  padding: 5em 3em;
+}
+
+.row1MF2,
+.row2MF2  {
+  width: 50%;
+}
+
+.row1MF2 img {
+  width: 100%;
+}
+
+.row2MF2 h1 {
+  color: #ff8a00;
+  font-size: 60px;
+  line-height: .8em;
+}
+
+.row2MF2 p {
+  line-height: 1.5em;
+}
+
+.boxMF3 {
+  display: flex;
+  justify-content: center;
+  margin: 5em 6em;
+}
+
+.row1MF3,
+.row2MF3,
+.row3MF3,
+.row4MF3 {
+  width: 25%;
+  padding: 0 1em;
+}
+
+.row1MF3 h1,
+.row2MF3 h1,
+.row3MF3 h1,
+.row4MF3 h1 {
+  color: #ff8a00;
+  margin-bottom: .3em;
+}
+
+.boxMF4 {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px 0px;
+  padding: 5em 5em;
+}
+
+.row2MF4,
+.row3MF4 {
+  padding: 0 1.5em;
+}
+
+.row1MF4 {
+  width: 20%;
+}
+
+.row2MF4,
+.row3MF4 {
+  width: 40%;
+}
+
+.row1MF4 {
+  color: #ff8a00;
+  line-height: 1.9em;
+}
+
+.row2MF4 img,
+.row3MF4 img {
+  width: 100%;
+  opacity: 1;
+}
+
+.row2MF4 img:hover,
+.row3MF4 img:hover {
+  width: 100%;
+  opacity: .8;
+}
+
+.boxMF5 {
+  margin: 5em 5em 0 5em;
+}
+
+.boxMF5 h1 {
+  color: #ff8a00;
+  font-size: 40px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.boxForm {
+  margin: 0 20em;
+}
+
+@media (max-width:760px) {
+  .boxMF1 {
+    height: 80vh;
+  }
+
+  .rowMF1 {
+    width: 100%;
+    padding: 8em 1em 0 1em;
+  }
+
+  .rowMF1 i,
+  .rowMF1 img,
+  .lineMF1 {
+    display: none;
+  }
+
+  .boxMF2 {
+    flex-direction: column;
+  }
+
+  .row1MF2,
+  .row2MF2 {
+    width: 100%;
+  }
+
+  .row2MF2 h1,
+  .row2MF2 p {
+    text-align: center;
+  }
+
+  .row2MF2 h1 {
+    font-size: 40px;
+    margin-top: 1em;
+  }
+
+  .lineMF2 {
+    width: 100%;
+  }
+
+  .boxMF3 {
+    flex-direction: column;
+    margin: 4em 2em;
+    text-align: center;
+  }
+
+  .row1MF3,
+  .row2MF3,
+  .row3MF3,
+  .row4MF3 {
+    width: 100%;
+  }
+
+  .row1MF3 h1,
+  .row2MF3 h1,
+  .row3MF3 h1,
+  .row4MF3 h1 {
+    font-size: 25px;
+  }
+
+  .row1MF3,
+  .row2MF3,
+  .row3MF3 {
+    margin-bottom: 2em;
+  }
+
+  .boxMF4 {
+    flex-direction: column;
+    padding: 5em 2em;
+  }
+
+  .row1MF4,
+  .row2MF4,
+  .row3MF4 {
+    width: 100%;
+  }
+
+  .row2MF4,
+  .row3MF4 {
+    padding: 0;
+    margin-top: 3em;
+  }
+
+  .row1MF4 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .lineMF4 {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .boxMF5 {
+    margin: 3em 1.5em;
+  }
+
+  .boxForm {
+    margin: 0;
+  }
+
+  .boxMF5 h1 {
+    font-size: 30px;
+  }
+
+  .lineMF5 {
+    width: 30%;
+  }
+}

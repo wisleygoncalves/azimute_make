@@ -1,0 +1,145 @@
+.footer {
+  background-color: #222;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.brand img {
+  width: 250px;
+}
+
+.brand ul {
+  list-style: none;
+  color: #aaa;
+}
+
+.link_list a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  opacity: 1;
+  transition: all ease .2s;
+}
+
+.link_list a:hover {
+  opacity: .8;
+}
+
+.link_list ul {
+  list-style: none;
+}
+
+.link_list li {
+  margin-bottom: 7px;
+}
+
+.socialMedia p,
+.contactTitle {
+  color: #aaa;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.socialMedia ul {
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+}
+
+.socialMedia a {
+  margin-right: 1em;
+  color: #fabe28;
+  opacity: 1;
+  transition: all ease .2s;
+} 
+
+.socialMedia a:hover {
+  opacity: .8;
+}
+
+.socialHelp {
+  margin-top: 1em;
+}
+
+.contact ul {
+  padding: 0;
+  list-style: none;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.contact li {
+  margin-bottom: 0.5em;
+}
+
+.contact span {
+  font-weight: bold;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #aaa;
+  opacity: 1;
+  transition: all ease .2s;
+}
+
+.contact a:hover {
+  opacity: .8;
+}
+
+.socialMediaMobile ul {
+  display: none;
+}
+
+@media (max-width:760px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0 0 0;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .link_list {
+    margin-top: 1em;
+  }
+
+  .socialMedia {
+    display: none;
+  }
+
+  .socialMediaMobile {
+    margin-top: 1em;
+    padding: 20px 0 !important;
+    background-color: #111;
+  }
+
+  .socialMediaMobile ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .socialMediaMobile li {
+    margin-right: 1em;
+  }
+
+  .socialMediaMobile a {
+    color: #fabe28;
+    opacity: 1;
+  }
+
+  .socialMediaMobile a:hover {
+    opacity: .8;
+  }
+}

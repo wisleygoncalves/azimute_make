@@ -1,0 +1,66 @@
+.containerForm label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em
+}
+
+.containerForm label span {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.containerForm input,
+.containerForm textarea {
+  color: #aaa;
+  box-sizing: border-box;
+  border: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 0.8em 1em;
+  background-color: transparent;
+  margin-bottom: .7em;
+}
+
+.containerForm input::placeholder,
+.containerForm textarea::placeholder {
+  color: #aaa;
+}
+
+.containerForm input:focus {
+  border: 2px solid #ff8a00;
+}
+
+.containerForm textarea:focus {
+  outline: none;
+  border: 2px solid #ff8a00
+}
+
+.btnForm {
+  width: 100%;
+  padding: .7em 0;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff8a00;
+  border-radius: 30px;
+  border: none;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.btnForm:hover {
+  opacity: .8;
+}
+
+.boxSucessMessage {
+  margin: 0 5em 4em 5em;
+}
+
+.boxSucessMessage p {
+  color: #3ef38b;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  transition: .5s;
+  margin: 1em 0 2em 0;
+}
